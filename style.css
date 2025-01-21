@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    box-sizing: border-box;
+    font-size:15pt;
+    background-image: url(img/divcom2.png);
+    background-size: cover;
+}
+
+#titulo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:oblique;
+    border:5px solid black;
+    color:white;;
+    background-image: url(img/divcom1.jpg);
+    background-size: 100%;
+    background-position-y:-40pt;
+}
+
+body{
+    padding:20px;
+    width:100%;
+    height:100%;
+    text-justify:inter-cluster;
+}
+
+div{
+    text-align:center;
+    margin-right: 10px;
+    padding: 0.2rem;
+    width:100%
+}
+
+#redir{
+    display:flex;
+}
